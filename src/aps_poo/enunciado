@@ -1,0 +1,36 @@
+APS 2021.1
+
+PROGRAMAÇÃO ORIENTADA A OBJETOS
+
+PROFESSOR: ARTUR HENRIQUE KRONBAUER
+
+1) Escreva uma classe chamada “Cliente” que tenha como atributo o número da conta (int), o nome do cliente (String), o saldo (float) e o tipo (byte). 
+O construtor deve receber como parâmetro os dados para inicializar os atributos da classe.
+
+Obs: O atributo tipo deve receber 1 para clientes especiais e 2 para clientes comuns.
+
+2)  Escreva uma classe chamada “ContaBancaria” que tenha como atributos um vetor do tipo “Cliente” e um contador (int) para identificar quantos clientes foram cadastrados. 
+O construtor da classe deve receber como parâmetro a quantidade de clientes (int) para instanciar o vetor e inicializar com zero o contador. 
+A classe ainda deve ter um método chamado “adicionaClientes” que receba como parâmetro um objeto da classe “Cliente” e possa adicionar o novo cliente ao vetor de clientes.
+
+3) Adicione a classe “ContaBancaria” um método chamado “deposito” que deve receber como parâmetro o número da conta do cliente (int) e o valor a ser depositado (float). 
+A lógica do método deve realizar a adição do valor depositado ao saldo da conta do cliente.
+
+Obs: Caso o número da conta passado como parâmetro não exista no vetor, mostre uma mensagem de erro.
+
+ 4) Adicione a classe “ContaBancaria” um método chamado “saque” que deve receber como parâmetro o número da conta do cliente (int) e o valor a ser retirado (float). 
+ A lógica do método deve realizar a subtração do valor retirado do saldo da conta do cliente.
+
+Obs: Caso o número da conta passado como parâmetro não exista no vetor, mostre uma mensagem de erro.
+
+5) Adicione a classe “ContaBancaria” um método chamado “extratoBancario” que deve receber como parâmetro o número da conta do cliente (int) e imprimir todos os dados dessa conta.
+
+Obs: Caso o número da conta passado como parâmetro não exista no vetor, mostre uma mensagem de erro.
+
+-------------------------------------------------------------
+
+Olá Estudante,
+
+Você deverá adicionar o projeto resolvido no BlueJ ou outra ide de sua preferência.
+
+Este Exercício não terá nota contabilizada, pois esta será atribuída a partir da Autoavaliação.

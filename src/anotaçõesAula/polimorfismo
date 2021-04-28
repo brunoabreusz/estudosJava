@@ -1,0 +1,11 @@
+Existe duas formas de polimorfismo:
+
+o Polimorfismo por SOBREPOSIÇÃO, que obtem a mesma assinatura
+ou seja utiliza o mesmo metodo só sobe-escreve em uma outra classe
+utilizando o operador @Override.
+
+e o Polimorfismo de SOBRECARGA, que são assinaturas diferentes
+e é feito na mesma classe um exemplo é dois construtores em uma
+classe um com todos os parametros e outro com apenas 2, se você
+instancia um objeto passando 2 parametros você vai utilizar o segundo
+construtor mesmo tendo um que abrange tudo.

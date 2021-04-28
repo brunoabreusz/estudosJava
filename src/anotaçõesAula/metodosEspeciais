@@ -1,0 +1,35 @@
+Segurança adicional para o seu programa.
+
+Métodos Acessores:
+
+getters (GET) -> "pegar" ou "acessar" alguns atributos da classe, esse método sempre
+retornará um valor.
+
+exemplo: 
+		
+		public String getAluno(){
+			return Aluno;
+		}
+
+
+Metodos Modificadores:
+
+setters (SET) -> "alterar" ou "modificar" os valores de um atributo de forma protegida
+é utilizado o método SET, que não terá um retorno pois o atributo será somente modificado,
+criando um método do tipo VOID.
+
+exemplo: 
+		
+		public void setAluno(int aluno){
+			this.aluno = aluno;
+		}
+
+Metodos Construtor:
+
+construct (new) -> "criar" o método contrutor determina ações que devem ser executadas  quando
+da criação a um objeto. o construtor é definidio como um método cujo o nome deve ser o mesmo
+nome da classe e sem indicação de retorno.
+
+exemplo:
+
+		Aluno a1 = new Aluno();

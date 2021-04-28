@@ -1,0 +1,8 @@
+A Relação de agregação em java é você instanciar um atributo com uma classe e esse atributo herda o que foi passado na classe.
+
+	// EXEMPLO:
+
+	private Lutador desafiante;
+	private int rounds;
+	private boolean aprovada;
+

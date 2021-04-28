@@ -1,0 +1,47 @@
+O Metodo Super(), é utilizado para acessar a classe contrutora
+da classe pai. diretamente!
+
+exemplo: 
+
+public class pessa{
+	public String nome;
+	public int id;
+
+}
+
+public class funcionario extends pessoa{
+
+	public funcionario(){
+	super(nome, id);
+	}
+			// foi utilizado as classes declaradas na superclass.
+}
+
+
+Observação atenção nos contrutores todo e qualquer produto
+precisa de um bom construtor, com uma logica pensando
+no funcionamento do algoritmo.
+
+exemplo: se você quer manipular criar uma classe construtora de anivérsario
+
+public class aniversario{
+
+public class aniversario(){
+	public String nome;
+	public int anos;
+	
+	public aniversario(String nome, int anos){
+	this.nome = nome;
+	this.anos = anos;
+	}
+	
+	public aniversario(int anos){
+	System.out.println(this.anos + 1);
+	}	// Se o cidadão usar |||| aniversario n1 = new aniversario(); n1.nome = "Bruno" n1.anos = 1 utilizasse o primeiro construtor.
+		// agora se utilizar aniversario n2 = new aniversario(5); // será imprimido o valor 6 
+}
+
+}
+
+
+Classe final não pode ser extendida e não pode ser substituido

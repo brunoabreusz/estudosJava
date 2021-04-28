@@ -1,0 +1,10 @@
+A interface é um recurso utilizado em Java
+que obriga um determinado grupo de classes
+a ter métodos ou propriedades em comum para
+existir em um determinado contexto contudo os
+métodos podem ser implementados em casa classe
+de uma maneira diferente.
+
+No rigor do termo, uma interface em Java nada mais é que uma classe abstrata 
+composta somente por métodos abstratos. Ela serve para que outras classes, 
+baseadas nessa interface, implementem esses métodos para fins específicos.

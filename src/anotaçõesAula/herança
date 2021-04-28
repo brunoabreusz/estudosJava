@@ -1,0 +1,10 @@
+Classe abastrata, não instancia
+se eu criar uma classe abastrata pra pessoa
+ela não pode ser instanciada exemplo
+
+pessoa p1 = new pessoa();
+não vai pegar!
+
+@override é o mesmo que sobrescrever um metodo existente
+
+public final void - não pode ser sobrescrito.
